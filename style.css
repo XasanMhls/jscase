@@ -1,0 +1,151 @@
+/* Общие стили */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .navbar-left {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff0055;
+    text-decoration: none;
+    margin-right: 20px;
+  }
+  
+  .address-button {
+    display: flex;
+    align-items: center;
+    background-color: #ff0055;
+    color: white;
+    border: none;
+    border-radius: 20px;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .address-button .icon {
+    margin-right: 8px;
+  }
+  
+  .address-button:hover {
+    background-color: #e6004c;
+  }
+  
+  .navbar-right a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar-right a:hover {
+    color: #ff0055;
+  }
+
+  
+  h1{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border-bottom: 1px solid #ccc;
+  }
+  
+    h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .product-grid {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .product-card {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .product-image {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 15px;
+  }
+  
+  .product-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .product-price {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 15px;
+  }
+  
+  .add-to-cart {
+    background-color: #ff0055;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+  }
+  
+  .add-to-cart:hover {
+    background-color: #e6004c;
+  }
+  
+  .footer {
+    text-align: center;
+    padding: 20px;
+    background-color: white;
+    border-top: 1px solid #ccc;
+  }
+  
+  .footer p {
+    margin: 0;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .footer .logo {
+    font-size: 20px;
+    color: #ff0055;
+    margin-top: 10px;
+  }
+    
